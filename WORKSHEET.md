@@ -1,6 +1,8 @@
 # CiBot Progress Worksheet
 
-This file tracks the work for each week in the iteration.
+This file tracks the work for each week iteration in each of the milestones.
+
+## MILESTONE: BOT
 
 ##### Week 1
 
@@ -27,3 +29,15 @@ This file tracks the work for each week in the iteration.
 | Subflow      | S4             |  &nbsp;
 | Errorflow    | E1             |  &nbsp;
 | Selenium Tests| Incomplete    | Get Meeting Availability, error1,...
+
+## MILESTONE: SERVICE
+
+*This milestone has not yet started*
+
+## MILESTONE: DEPLOY
+
+*This milestone has not yet started*
+
+## MILESTONE: REPORT
+
+*This milestone has not yet started*
