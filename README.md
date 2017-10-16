@@ -23,5 +23,5 @@ The documentation for the bot implementation milestones can be found at the foll
 This repo only contains the documentation for the bot. To see the implementation files,
 please visit the bot repo at the following link:
 
-## [Bot implementation](https://github.ncsu.edu/CiBot/bot)
+## [Bot implementation](https://github.com/CiBotProject/bot-docs)
 
