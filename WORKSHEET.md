@@ -61,7 +61,7 @@ This file tracks the work for each week iteration in each of the milestones.
 | Subflow      | S3             |  &nbsp;
 | Errorflow    | E1             |  &nbsp;
 | Use Case      | Creating issues if build fails         | [Create a hook to trigger bot](https://www.pivotaltracker.com/story/show/151857866); [Create mock Travis objects](https://www.pivotaltracker.com/story/show/152128342)
-| Subflow      | S1             |  [Generate initial build failure issue](https://www.pivotaltracker.com/story/show/151858691)]
+| Subflow      | S1             |  [Generate initial build failure issue](https://www.pivotaltracker.com/story/show/151858691)
 | Subflow      | S2             |  [Determine if someone else should be assigned to the issue](https://www.pivotaltracker.com/story/show/151858774)
 | Subflow      | S3             |  &nbsp;
 | Errorflow    | E1             |  &nbsp;
