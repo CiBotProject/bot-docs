@@ -31,7 +31,8 @@ are simply duplicated below.
 
 4. Alternative flows
 
-  [E1] If the repository language is not supported, the bot will return an error message and gives the link for the Travis documentation.
+  [E1] If the repository language is not supported, the bot will return an error message and gives
+  the link for the Travis documentation.
 
 ### Use case 2: Creating issues if the build fails
 
@@ -42,10 +43,10 @@ are simply duplicated below.
 
 2. Main flow
 
-	Travis CI notifies bot of build failure along with the reason and uid of developer who started the build.
-	Bot notifies developer of the failure and reason.
-	Bot asks the developer if the failure calls for an issue to be created immediately [S1], add a different title/update assignees [S2] or not create the issue [S3].
-	The bot creates an issue on the appropriate github repository branch.
+  Travis CI notifies bot of build failure along with the reason and uid of developer who started the build.
+  Bot notifies developer of the failure and reason.
+  Bot asks the developer if the failure calls for an issue to be created immediately [S1], add a different title/update assignees [S2] or not create the issue [S3].
+  The bot creates an issue on the appropriate github repository branch.
 
 3. Subflows
 
@@ -71,9 +72,9 @@ are simply duplicated below.
 
 2. Main flow
 
-	When a push is made, the bot checks the coveralls coverage report.
-	If a change is pushed resulting in a decrease in coverage, the bot will ask the developer if the failure calls for an issue to be created immediately [S2], add a different title/update assignees [S3] or not create the issue [S4].
-	The bot will create an issue to implement necessary test cases for the delivered code
+  When a push is made, the bot checks the coveralls coverage report.
+  If a change is pushed resulting in a decrease in coverage, the bot will ask the developer if the failure calls for an issue to be created immediately [S2], add a different title/update assignees [S3] or not create the issue [S4].
+  The bot will create an issue to implement necessary test cases for the delivered code
 
 3. Subflows
 
@@ -87,14 +88,37 @@ are simply duplicated below.
 
 4. Alternative flows
 
-	[E1] No test cases have been written to hook into Coveralls
+  [E1] No test cases have been written to hook into Coveralls
 
 ## Mocking — *Part 2 of 6*
 
+Service interactions with GitHub, TravisCI, and Coveralls have been mocked for all methods.
+The `.json` files containing the mock data can be found in the [mocks](https://github.ncsu.edu/CiBot/bot/tree/master/node/modules/mocks) directory within
+the modules.
+
+In order to allow the main module (`bot.js`) to be agnostic to mocking, all patching
+is done within the modules making the service calls.
+
 ## Bot Implementation — *Part 3 of 6*
+
+The bot implementation has been divided into four modules. All modules other than the main
+module are contained within the [modules](https://github.ncsu.edu/CiBot/bot/tree/master/node/modules) directory.
+
+* `bot.js` - This is the main bot module that handles all communication with Slack. Additionally,
+it mediates all communication between the other modules.
+* `github.js` - This module integrates with the GitHub service. It performs any necessary GitHub actions like
+creating issues and files
+* `travis.js` - This module integrates with the TravisCI service. Its main functionality is to pass a
+message to `bot.js` when a build error occurs and to create valid `.yml` files to configure TravisCI.
+* `coveralls.js` - This module integrates with the Coveralls service. Its main functionality is to pass a
+message to `bot.js` when a coverage issue needs reporting and to create valid `.yml` files to configure
+TravisCI. In determining when a coverage issue needs to be reported, this module can also set a coverage
+threshold.
 
 ## Selenium Testing — *Part 4 of 6*
 
 ## Task Tracking — *Part 5 of 6*
+
+Task tracking for this milestone can be found in the [WORKSHEET](WORKSHEET.md#milestone-bot)
 
 ## Screencast — *Part 6 of 6*
