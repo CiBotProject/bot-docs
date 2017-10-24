@@ -2,8 +2,9 @@
 
 ## Use Cases — *Part 1 of 6*
 
-We did not need to make any changes based on feedback from the design, so the use cases
-are simply duplicated below.
+We did not need to make any changes based on feedback from the design, however, some minor
+changes were made since some functionality is only available to Slack Apps (i.e. \ commands).
+Other than these changes, the use cases are simply duplicated below.
 
 ### Use Case 1: Configuring .travis.yml and .coveralls.yml
 
@@ -21,7 +22,7 @@ are simply duplicated below.
 
 3. Subflows
 
-  [S1] User provides /init travis command with name of repo
+  [S1] User provides init travis command with name of repo
 
   [S2] Bot will return list of techs that it supports (ex: Node, Ruby, etc.). And user
   confirms them.
@@ -97,7 +98,9 @@ The `.json` files containing the mock data can be found in the [mocks](https://g
 the modules.
 
 In order to allow the main module (`bot.js`) to be agnostic to mocking, all patching
-is done within the modules making the service calls.
+is done within the modules making the module calls. This also allows mocking of urls that include
+custom parameters (i.e. GitHub contributor/file names). Since the mocking response does not change
+from one call to another, however, we are unable to test some of the alternative flows at this time.
 
 ## Bot Implementation — *Part 3 of 6*
 
@@ -115,7 +118,23 @@ message to `bot.js` when a coverage issue needs reporting and to create valid `.
 TravisCI. In determining when a coverage issue needs to be reported, this module can also set a coverage
 threshold.
 
+The primary responsibility of developers was roughly broken down along these modules.
+
+| User ID | Responsibility |
+| ------- | -------------- |
+| ajmcnama | system architecture; selenium testing - setup helper methods and test help; help with `github.js`; general coordination, tracking, and debugging assistance |
+| igibek | `travis.js`; related selenium testing |
+| sgonsal | `coveralls.js`; related selenium testing |
+| sssaha2<sup>[1](#foot)</sup> | `bot.js`; assisted with integrating other modules into `bot.js` |
+| tmdement | `github.js`; related selenium testing |
+
+<a name="foot">1</a>: While sssaha2 performed his work throughout the milestone, this work does not show up in the contributors section due to an issue with having the wrong email address associated with the commits.
+
 ## Selenium Testing — *Part 4 of 6*
+
+Selenium tests have been implemented for all bot interactions. The tests can be found in the [bot repo](https://github.ncsu.edu/CiBot/bot/blob/master/Selenium/src/test/java/selenium/tests/WebTest.java). For each command, we check to make sure that the bot responds with the correct command. We also test the flow of conversations necessary in several use cases.
+
+In total, JUnit will run four different tests, one for each use case and a fourth one for the help message prompts.
 
 ## Task Tracking — *Part 5 of 6*
 
