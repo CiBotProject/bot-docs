@@ -132,7 +132,7 @@ The primary responsibility of developers was roughly broken down along these mod
 
 ## Selenium Testing — *Part 4 of 6*
 
-Selenium tests have been implemented for all bot interactions. The tests can be found in the [bot repo](https://github.ncsu.edu/CiBot/bot/blob/master/Selenium/src/test/java/selenium/tests/WebTest.java). For each command, we check to make sure that the bot responds with the correct command. We also test the flow of conversations necessary in several use cases.
+Selenium tests have been implemented for all bot subflow interactions. The tests can be found in the [bot repo](https://github.ncsu.edu/CiBot/bot/blob/master/Selenium/src/test/java/selenium/tests/WebTest.java). For each command, we check to make sure that the bot responds with the correct command. We also test the flow of conversations necessary in several use cases.
 
 In total, JUnit will run four different tests, one for each use case and a fourth one for the help message prompts.
 
