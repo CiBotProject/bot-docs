@@ -122,7 +122,7 @@ The primary responsibility of developers was roughly broken down along these mod
 
 | User ID | Responsibility |
 | ------- | -------------- |
-| ajmcnama | system architecture; selenium testing - setup helper methods and test help; help with `github.js`; general coordination, tracking, and debugging assistance |
+| ajmcnama | system architecture; selenium testing - setup helper methods and test help; help with `github.js` issue generation; general coordination, tracking, and debugging assistance |
 | igibek | `travis.js`; related selenium testing |
 | sgonsal | `coveralls.js`; related selenium testing |
 | sssaha2<sup>[1](#foot)</sup> | `bot.js`; assisted with integrating other modules into `bot.js` |
