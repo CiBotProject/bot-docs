@@ -126,7 +126,7 @@ The primary responsibility of developers was roughly broken down along these mod
 | igibek<sup>[1](#foot)</sup> | `travis.js`; related selenium testing |
 | sgonsal | `coveralls.js`; related selenium testing |
 | sssaha2<sup>[2](#foot)</sup> | `bot.js`; assisted with integrating other modules into `bot.js` |
-| tmdement | `github.js`; related selenium testing |
+| tmdement | `github.js`; related selenium testing; recorded screencast |
 
 <a name="foot">1</a>: While igibek performed his work throughout the milestone, this work does not show up in the contributors section due to an issue with having the wrong email address associated with the commits.
 
