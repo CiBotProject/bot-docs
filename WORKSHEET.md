@@ -60,7 +60,7 @@ This file tracks the work for each week iteration in each of the milestones.
 | Subflow      | S2 - Complete  |  *work was not tracked*
 | Subflow      | S3             |  [Create yaml file](https://www.pivotaltracker.com/story/show/152128237) and [this](https://www.pivotaltracker.com/story/show/152125904); [Create yaml file and save to repo](https://www.pivotaltracker.com/story/show/151844248)
 | Errorflow    | E1             |  &nbsp;
-| Use Case 2    | Creating issues if build fails         | [Create a hook to trigger bot](https://www.pivotaltracker.com/story/show/151857866); [Create mock Travis objects](https://www.pivotaltracker.com/story/show/152128342
+| Use Case 2    | Creating issues if build fails         | [Create a hook to trigger bot](https://www.pivotaltracker.com/story/show/151857866); [Create mock Travis objects](https://www.pivotaltracker.com/story/show/152128342)
 | Subflow      | S1 - Complete  |  [Generate initial build failure issue](https://www.pivotaltracker.com/story/show/151858691); [Create hook to show build status](https://www.pivotaltracker.com/story/show/151857866)
 | Subflow      | S2 - Complete  |  [Ask who should be assigned to the issue](https://www.pivotaltracker.com/story/show/151858774)
 | Subflow      | S3 - Complete  |  [Cancel issue creation if desired](https://www.pivotaltracker.com/story/show/152221246)
@@ -73,7 +73,7 @@ This file tracks the work for each week iteration in each of the milestones.
 | Subflow      | S4 - Complete  |  [Cancel issue creation if desired](https://www.pivotaltracker.com/story/show/152221246)
 | Errorflow    | E1             |  &nbsp;
 | Selenium Tests| Incomplete    |  [Start selenium testing to support user flow](https://www.pivotaltracker.com/story/show/151828959); [Selenium testing for UC1](https://www.pivotaltracker.com/story/show/152241264); [Selenium testing for UC2](https://www.pivotaltracker.com/story/show/152241271); [Selenium testing for UC3](https://www.pivotaltracker.com/story/show/152241299);
-| General       | Complete      | [Implement CiBot help dialog]https://www.pivotaltracker.com/story/show/151841553()
+| General       | Complete      | [Implement CiBot help dialog](https://www.pivotaltracker.com/story/show/151841553
 
 ## MILESTONE: SERVICE
 
