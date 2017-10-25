@@ -73,7 +73,7 @@ This file tracks the work for each week iteration in each of the milestones.
 | Subflow      | S4 - Complete  |  [Cancel issue creation if desired](https://www.pivotaltracker.com/story/show/152221246)
 | Errorflow    | E1             |  &nbsp;
 | Selenium Tests| Incomplete    |  [Start selenium testing to support user flow](https://www.pivotaltracker.com/story/show/151828959); [Selenium testing for UC1](https://www.pivotaltracker.com/story/show/152241264); [Selenium testing for UC2](https://www.pivotaltracker.com/story/show/152241271); [Selenium testing for UC3](https://www.pivotaltracker.com/story/show/152241299);
-| General       | Complete      | [Implement CiBot help dialog](https://www.pivotaltracker.com/story/show/151841553
+| General       | Complete      | [Implement CiBot help dialog](https://www.pivotaltracker.com/story/show/151841553)
 
 ## MILESTONE: SERVICE
 
