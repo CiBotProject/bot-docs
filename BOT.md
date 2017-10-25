@@ -123,12 +123,14 @@ The primary responsibility of developers was roughly broken down along these mod
 | User ID | Responsibility |
 | ------- | -------------- |
 | ajmcnama | system architecture; selenium testing - setup helper methods and test help; help with `github.js` issue generation; general coordination, tracking, and debugging assistance |
-| igibek | `travis.js`; related selenium testing |
+| igibek<sup>[1](#foot)</sup> | `travis.js`; related selenium testing |
 | sgonsal | `coveralls.js`; related selenium testing |
-| sssaha2<sup>[1](#foot)</sup> | `bot.js`; assisted with integrating other modules into `bot.js` |
+| sssaha2<sup>[2](#foot)</sup> | `bot.js`; assisted with integrating other modules into `bot.js` |
 | tmdement | `github.js`; related selenium testing |
 
-<a name="foot">1</a>: While sssaha2 performed his work throughout the milestone, this work does not show up in the contributors section due to an issue with having the wrong email address associated with the commits.
+<a name="foot">1</a>: While igibek performed his work throughout the milestone, this work does not show up in the contributors section due to an issue with having the wrong email address associated with the commits.
+
+<a name="foot">2</a>: While sssaha2 performed his work throughout the milestone, this work does not show up in the contributors section due to an issue with having the wrong email address associated with the commits.
 
 ## Selenium Testing — *Part 4 of 6*
 
