@@ -58,7 +58,7 @@ This file tracks the work for each week iteration in each of the milestones.
 | Use Case 1    | Configuring .yml files         | [Create mock GitHub objects](https://www.pivotaltracker.com/story/show/152128355)
 | Subflow      | S1 - Complete  |  [Define initialization bot interaction](https://www.pivotaltracker.com/story/show/151842516)
 | Subflow      | S2 - Complete  |  *work was not tracked*
-| Subflow      | S3             |  [Create yaml file](https://www.pivotaltracker.com/story/show/152128237) and [this](https://www.pivotaltracker.com/story/show/152125904); [Create yaml file and save to repo](https://www.pivotaltracker.com/story/show/151844248)
+| Subflow      | S3 - Complete  |  [Create yaml file](https://www.pivotaltracker.com/story/show/152128237) and [this](https://www.pivotaltracker.com/story/show/152125904); [Create yaml file and save to repo](https://www.pivotaltracker.com/story/show/151844248)
 | Errorflow    | E1             |  &nbsp;
 | Use Case 2    | Creating issues if build fails         | [Create a hook to trigger bot](https://www.pivotaltracker.com/story/show/151857866); [Create mock Travis objects](https://www.pivotaltracker.com/story/show/152128342)
 | Subflow      | S1 - Complete  |  [Generate initial build failure issue](https://www.pivotaltracker.com/story/show/151858691); [Create hook to show build status](https://www.pivotaltracker.com/story/show/151857866)
