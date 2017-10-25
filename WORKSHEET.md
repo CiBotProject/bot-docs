@@ -55,8 +55,8 @@ This file tracks the work for each week iteration in each of the milestones.
 
 | Deliverable   | Item/Status   |  Issues/Tasks
 | ------------- | ------------  |  ------------
-| Use Case 1    | Configuring .yml files         | [Create mock Coveralls objects](https://www.pivotaltracker.com/story/show/152128355)
-| Subflow      | S1 - Complete |  [Create mock GitHub objects](https://www.pivotaltracker.com/story/show/152128355)
+| Use Case 1    | Configuring .yml files         | [Create mock GitHub objects](https://www.pivotaltracker.com/story/show/152128355)
+| Subflow      | S1 - Complete  |  [Define initialization bot interaction](https://www.pivotaltracker.com/story/show/151842516)
 | Subflow      | S2 - Complete  |  *work was not tracked*
 | Subflow      | S3             |  [Create yaml file](https://www.pivotaltracker.com/story/show/152128237) and [this](https://www.pivotaltracker.com/story/show/152125904); [Create yaml file and save to repo](https://www.pivotaltracker.com/story/show/151844248)
 | Errorflow    | E1             |  &nbsp;
