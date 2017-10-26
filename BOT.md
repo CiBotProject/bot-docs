@@ -3,10 +3,9 @@
 ## Use Cases — *Part 1 of 6*
 
 We did not need to make any changes based on feedback from the design, however, some minor
-changes were made since some functionality is only available to Slack Apps (i.e. \ commands).
-Other than these changes, the use cases are simply duplicated below.
+changes were made since some functionality is only available to Slack Apps (i.e. \ commands). We have removed the .coveralls.yml terminology from Use Case 1, since it has been subsumed into our general CI setup process. Other than these changes, the use cases are simply duplicated below.
 
-### Use Case 1: Configuring .travis.yml and .coveralls.yml
+### Use Case 1: Configuring .travis.yml
 
 1. Precondition
 
@@ -143,3 +142,7 @@ In total, JUnit will run four different tests, one for each use case and a fourt
 Task tracking for this milestone can be found in the [WORKSHEET](WORKSHEET.md#milestone-bot)
 
 ## Screencast — *Part 6 of 6*
+
+Please see the video demonstration below, which runs through each of the three use cases, demonstrates use of the `help` feature, and records a successful pass through the [Selenium tests](https://github.ncsu.edu/CiBot/bot/blob/master/Selenium/src/test/java/selenium/tests/WebTest.java).
+
+[![CiBot Communication Demo](https://youtu.be/GkUK_OoQXeU)](https://youtu.be/GkUK_OoQXeU)
