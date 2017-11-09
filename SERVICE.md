@@ -1,17 +1,17 @@
 # Service Milestone
 
-## Use Cases
+## 1. Use Cases
 
-### Use Case 1: Configuring .travis.yml
+### 1.1. Use Case 1: Configuring .travis.yml
 
-### Use Case 2: Creating issues if the build fails
+### 1.2. Use Case 2: Creating issues if the build fails
 
-### Use Case 3: Code coverage notifications
+### 1.3. Use Case 3: Code coverage notifications
 
-## Task Tracking
+## 2. Task Tracking
 
 Task tracking for this milestone can be found in the [WORKSHEET](WORKSHEET.md#milestone-service).
 
-## Screencast
+## 3. Screencast
 
 Please see the video demonstration below, which...

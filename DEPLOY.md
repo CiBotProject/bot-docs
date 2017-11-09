@@ -1,15 +1,15 @@
 # Deploy Milestone
 
-## Deployment Scripts
+## 1. Deployment Scripts
 
-## Passing Acceptance Testing
+## 2. Passing Acceptance Testing
 
-## Exploratory Testing and Code Inspection
+## 3. Exploratory Testing and Code Inspection
 
-## Task Tracking
+## 4. Task Tracking
 
 Task tracking for this milestone can be found in the [WORKSHEET](WORKSHEET.md#milestone-deploy).
 
-## Screencast
+## 5. Screencast
 
 Please see the video demonstration below, which...
