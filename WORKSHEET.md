@@ -101,18 +101,18 @@ The CiBot team practiced agile development by planning slack into the developmen
 | Category | Description | Status |  Link |
 | --- | --- |  --- | --- |
 | *General* | Team meeting to review task status schedule work session. | Complete | &nbsp; |
-| *Use Case 1* | Create Travis CI and Coveralls badging functionality for repo README.md files. | Complete | [#152450117](https://www.pivotaltracker.com/story/show/152450117) |
-| *Use Case 1* | Change the `tokenManager.js` module to keep tokens in persistent storage. | Complete | [#152700891](https://www.pivotaltracker.com/story/show/152700891) |
-| *Use Case 1* | Implement functionality to set up GitHub tokens using CiBot. | Complete | [#152451275](https://www.pivotaltracker.com/story/show/152451275) |
-| *Use Case 2* | Determine Travis CI badge link. | Complete | [#152450080](https://www.pivotaltracker.com/story/show/152450080) |
-| *Use Case 2* | Create a live test repo for Travis CI build failures. | Complete | [#152449929](https://www.pivotaltracker.com/story/show/152449929) |
-| *Use Case 3* | Create a live test repo for Coveralls coverage loss. | Complete | [#142449944](https://www.pivotaltracker.com/story/show/152449944) |
-| *Use Case 2<br/>Use Case 3* | Validate input when using CiBot to create issues. | Complete | [#152221228](https://www.pivotaltracker.com/story/show/152221228) |
-| *Use Case 1<br/>Use Case 2<br/>Use Case 3* | Specify a web address in the .travis.yml file that CiBot is listening to. | Complete | [#152701474](https://www.pivotaltracker.com/story/show/152701474) |
-| *Use Case 1* | The Travis CI badge should be automatically added to the README.md file for a repo when Travis CI is set up. | Incomplete | [#151972298](https://www.pivotaltracker.com/story/show/151972298) |
-| *Use Case 1* | The Coveralls badge should be automatically added to the README.md file for a repo when Coveralls is set up. | Incomplete | [#151972296](https://www.pivotaltracker.com/story/show/151972296) |
-| *Use Case 1* | Add functionality for CiBot to initially activate Travis CI for a repo. | Incomplete | [#151975140](https://www.pivotaltracker.com/story/show/151975140) |
-| *Use Case 2<br/>Use Case 3* | Set a default contributor (last committer) that CiBot uses for suggested issue assignment. | Incomplete | [#152264301](https://www.pivotaltracker.com/story/show/152264301) |
+| *UC1* | Create Travis CI and Coveralls badging functionality for repo README.md files. | Complete | [#152450117](https://www.pivotaltracker.com/story/show/152450117) |
+| *UC1* | Change the `tokenManager.js` module to keep tokens in persistent storage. | Complete | [#152700891](https://www.pivotaltracker.com/story/show/152700891) |
+| *UC1* | Implement functionality to set up GitHub tokens using CiBot. | Complete | [#152451275](https://www.pivotaltracker.com/story/show/152451275) |
+| *UC2* | Determine Travis CI badge link. | Complete | [#152450080](https://www.pivotaltracker.com/story/show/152450080) |
+| *UC2* | Create a live test repo for Travis CI build failures. | Complete | [#152449929](https://www.pivotaltracker.com/story/show/152449929) |
+| *UC3* | Create a live test repo for Coveralls coverage loss. | Complete | [#142449944](https://www.pivotaltracker.com/story/show/152449944) |
+| *UC2<br/>UC3* | Validate input when using CiBot to create issues. | Complete | [#152221228](https://www.pivotaltracker.com/story/show/152221228) |
+| *UC1<br/>UC2<br/>UC3* | Specify a web address in the .travis.yml file that CiBot is listening to. | Complete | [#152701474](https://www.pivotaltracker.com/story/show/152701474) |
+| *UC1* | The Travis CI badge should be automatically added to the README.md file for a repo when Travis CI is set up. | Incomplete | [#151972298](https://www.pivotaltracker.com/story/show/151972298) |
+| *UC1* | The Coveralls badge should be automatically added to the README.md file for a repo when Coveralls is set up. | Incomplete | [#151972296](https://www.pivotaltracker.com/story/show/151972296) |
+| *UC1* | Add functionality for CiBot to initially activate Travis CI for a repo. | Incomplete | [#151975140](https://www.pivotaltracker.com/story/show/151975140) |
+| *UC2<br/>UC3* | Set a default contributor (last committer) that CiBot uses for suggested issue assignment. | Incomplete | [#152264301](https://www.pivotaltracker.com/story/show/152264301) |
 
 ## MILESTONE: DEPLOY
 
