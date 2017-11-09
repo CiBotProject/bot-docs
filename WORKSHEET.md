@@ -4,7 +4,11 @@ This file tracks the work for each week iteration in each of the milestones.
 
 ## MILESTONE: BOT
 
-##### Week 1
+**Milestone Start:** Tue 03 Oct
+
+**Milestone End:** Wed 25 Oct
+
+### Week 1: *Wed 04 Oct - Tue 10 Oct*
 
 | Deliverable   | Item/Status   |  Issues/Tasks
 | ------------- | ------------  |  ------------
@@ -28,7 +32,7 @@ This file tracks the work for each week iteration in each of the milestones.
 | Errorflow    | E1             |  &nbsp;
 | Selenium Tests| Incomplete    | [Connect to SlackBot](https://www.pivotaltracker.com/story/show/151828818)
 
-##### Week 2
+### Week 2: *Wed 11 Oct - Tue 17 Oct*
 
 | Deliverable   | Item/Status   |  Issues/Tasks
 | ------------- | ------------  |  ------------
@@ -51,7 +55,7 @@ This file tracks the work for each week iteration in each of the milestones.
 | Errorflow    | E1             |  &nbsp;
 | Selenium Tests| Incomplete    |  &nbsp;
 
-##### Week 3
+### Week 3: *Wed 18 Oct - Tue 24 Oct*
 
 | Deliverable   | Item/Status   |  Issues/Tasks
 | ------------- | ------------  |  ------------
@@ -77,13 +81,53 @@ This file tracks the work for each week iteration in each of the milestones.
 
 ## MILESTONE: SERVICE
 
-| Deliverable   | Item/Status   |  Issues/Tasks
-| ------------- | ------------  |  ------------
+**Milestone Start:** Tue 24 Oct
+
+**Milestone End:** Tue 14 Nov
+
+### Week 4: *Wed 25 Oct - Tue 31 Oct*
+
+The CiBot team practiced agile development by planning slack into the development cycle, and took this week off.
+
+### Week 5: *Wed 01 Nov - Tue 07 Nov*
+
+| Category | Description | Status |  Link |
+| --- | --- | --- |  --- |
+| *General* | Team meeting to identify and delegate tasks.  | Complete | &nbsp; |
+| *Use Case 3* | Determine Coveralls badge link. | Complete | [#152450078](https://www.pivotaltracker.com/story/show/152450078) |
+
+### Week 6: *Wed 08 Nov - Tue 14 Nov*
+
+| Category | Description | Status |  Link |
+| --- | --- |  --- | --- |
+| *General* | Team meeting to review task status schedule work session. | Complete | &nbsp; |
+| *Use Case 1* | Create Travis CI and Coveralls badging functionality for repo README.md files. | Complete | [#152450117](https://www.pivotaltracker.com/story/show/152450117) |
+| *Use Case 1* | Change the `tokenManager.js` module to keep tokens in persistent storage. | Complete | [#152700891](https://www.pivotaltracker.com/story/show/152700891) |
+| *Use Case 1* | Implement functionality to set up GitHub tokens using CiBot. | Complete | [#152451275](https://www.pivotaltracker.com/story/show/152451275) |
+| *Use Case 2* | Determine Travis CI badge link. | Complete | [#152450080](https://www.pivotaltracker.com/story/show/152450080) |
+| *Use Case 2* | Create a live test repo for Travis CI build failures. | Complete | [#152449929](https://www.pivotaltracker.com/story/show/152449929) |
+| *Use Case 3* | Create a live test repo for Coveralls coverage loss. | Complete | [#142449944](https://www.pivotaltracker.com/story/show/152449944) |
+| *Use Case 2<br/>Use Case 3* | Validate input when using CiBot to create issues. | Complete | [#152221228](https://www.pivotaltracker.com/story/show/152221228) |
+| *Use Case 1<br/>Use Case 2<br/>Use Case 3* | Specify a web address in the .travis.yml file that CiBot is listening to. | Complete | [#152701474](https://www.pivotaltracker.com/story/show/152701474) |
+| *Use Case 1* | The Travis CI badge should be automatically added to the README.md file for a repo when Travis CI is set up. | Incomplete | [#151972298](https://www.pivotaltracker.com/story/show/151972298) |
+| *Use Case 1* | The Coveralls badge should be automatically added to the README.md file for a repo when Coveralls is set up. | Incomplete | [#151972296](https://www.pivotaltracker.com/story/show/151972296) |
+| *Use Case 1* | Add functionality for CiBot to initially activate Travis CI for a repo. | Incomplete | [#151975140](https://www.pivotaltracker.com/story/show/151975140) |
+| *Use Case 2<br/>Use Case 3* | Set a default contributor (last committer) that CiBot uses for suggested issue assignment. | Incomplete | [#152264301](https://www.pivotaltracker.com/story/show/152264301) |
 
 ## MILESTONE: DEPLOY
 
-*This milestone has not yet started*
+**Milestone Start:** Wed 08 Nov
+
+**Milestone End:** Tue 28 Nov
+
+### Week 7: *Wed 15 Nov - Tue 21 Nov*
+
+### Week 8: *Wed 22 Nov - Tue 28 Nov*
 
 ## MILESTONE: REPORT
 
-*This milestone has not yet started*
+**Milestone Start:** Wed 08 Nov
+
+**Milestone End:** Sun 03 Dec
+
+### Week 9: *Wed 29 Nov - Tue 05 Dec*
