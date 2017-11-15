@@ -2,7 +2,9 @@
 
 Please refer to the [bot](https://github.ncsu.edu/CiBot/bot) repo to view the current code base and commit history.
 
-**Please note that the number of commits is not necessarily reflective of work performed, particularly in the case of Igibek (ikoishy). The commits he has made reference his public GitHub account, and do not appear appropriately on the graphs.  The [Pivotal Tracker project page](https://www.pivotaltracker.com/n/projects/2118162) is a more accurate reflection of individual work performed.**
+Please note that the number of commits is not necessarily reflective of work performed, particularly in the case of Igibek (ikoishy). The commits he has made reference his public GitHub account, and do not appear appropriately on the graphs.
+
+The [Pivotal Tracker project page](https://www.pivotaltracker.com/n/projects/2118162) is a more accurate reflection of individual work performed.
 
 ## 1. Use Cases
 
