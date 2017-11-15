@@ -94,7 +94,7 @@ The CiBot team practiced agile development by planning slack into the developmen
 | Category | Description | Status | Assignees | Link |
 | --- | --- | --- |  --- | --- |
 | *General* | Team meeting to identify and delegate tasks.  | Complete | *everyone* |  |
-| *Use Case 3* | Determine Coveralls badge link. | Complete | sgonsal | [#152450078](https://www.pivotaltracker.com/story/show/152450078) |
+| *UC3* | Determine Coveralls badge link. | Complete | sgonsal | [#152450078](https://www.pivotaltracker.com/story/show/152450078) |
 
 ### Week 6: *Wed 08 Nov - Tue 14 Nov*
 
