@@ -8,7 +8,7 @@ The [Pivotal Tracker project page](https://www.pivotaltracker.com/n/projects/211
 
 ## 1. Use Cases
 
-Descriptions of our three use cases can be found in the [Design](DESIGN.md) and [Bot](BOT.md) milestones.  Video demonstrations of the functional CiBot services for each use case can be found in the screencast embedded in the last section of this document.
+Descriptions of our three use cases can be found in the [Design](DESIGN.md) and [Bot](BOT.md) milestones.  Video demonstrations of the functional CiBot services for each use case can be found in the screencast embedded in the last section of this document. Links to the individual use case demonstrations can be found in the video description for quick reference.
 
 ## 2. Task Tracking
 
