@@ -1,5 +1,7 @@
 # Service Milestone
 
+Please refer to the [bot](https://github.ncsu.edu/CiBot/bot) repo to view the current code base and commit history.
+
 ## 1. Use Cases
 
 Descriptions of our three use cases can be found in the [Design](DESIGN.md) and [Bot](BOT.md) milestones.  Video demonstrations of the functional CiBot services for each use case can be found in the screencast embedded in the last section of this document.
