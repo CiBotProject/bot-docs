@@ -6,7 +6,7 @@ Descriptions of our three use cases can be found in the [Design](DESIGN.md) and 
 
 ## 2. Task Tracking
 
-Task tracking for this milestone can be found in the [WORKSHEET](WORKSHEET.md#milestone-service).
+Task tracking for this milestone can be found in the [WORKSHEET](WORKSHEET.md#milestone-service).  For this milestone, we also included an **Assignees** column on the worksheet table to denote who completed work on the respective story, rather than include that information in a separate table here.
 
 ## 3. Screencast
 
