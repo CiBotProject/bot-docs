@@ -91,28 +91,35 @@ The CiBot team practiced agile development by planning slack into the developmen
 
 ### Week 5: *Wed 01 Nov - Tue 07 Nov*
 
-| Category | Description | Status |  Link |
-| --- | --- | --- |  --- |
-| *General* | Team meeting to identify and delegate tasks.  | Complete | &nbsp; |
-| *Use Case 3* | Determine Coveralls badge link. | Complete | [#152450078](https://www.pivotaltracker.com/story/show/152450078) |
+| Category | Description | Status | Assignees | Link |
+| --- | --- | --- |  --- | --- |
+| *General* | Team meeting to identify and delegate tasks.  | Complete | *everyone* |  |
+| *UC3* | Determine Coveralls badge link. | Complete | sgonsal | [#152450078](https://www.pivotaltracker.com/story/show/152450078) |
 
 ### Week 6: *Wed 08 Nov - Tue 14 Nov*
 
-| Category | Description | Status |  Link |
-| --- | --- |  --- | --- |
-| *General* | Team meeting to review task status schedule work session. | Complete | &nbsp; |
-| *UC1* | Create Travis CI and Coveralls badging functionality for repo README.md files. | Complete | [#152450117](https://www.pivotaltracker.com/story/show/152450117) |
-| *UC1* | Change the `tokenManager.js` module to keep tokens in persistent storage. | Complete | [#152700891](https://www.pivotaltracker.com/story/show/152700891) |
-| *UC1* | Implement functionality to set up GitHub tokens using CiBot. | Complete | [#152451275](https://www.pivotaltracker.com/story/show/152451275) |
-| *UC2* | Determine Travis CI badge link. | Complete | [#152450080](https://www.pivotaltracker.com/story/show/152450080) |
-| *UC2* | Create a live test repo for Travis CI build failures. | Complete | [#152449929](https://www.pivotaltracker.com/story/show/152449929) |
-| *UC3* | Create a live test repo for Coveralls coverage loss. | Complete | [#142449944](https://www.pivotaltracker.com/story/show/152449944) |
-| *UC2<br/>UC3* | Validate input when using CiBot to create issues. | Complete | [#152221228](https://www.pivotaltracker.com/story/show/152221228) |
-| *UC1<br/>UC2<br/>UC3* | Specify a web address in the .travis.yml file that CiBot is listening to. | Complete | [#152701474](https://www.pivotaltracker.com/story/show/152701474) |
-| *UC1* | The Travis CI badge should be automatically added to the README.md file for a repo when Travis CI is set up. | Incomplete | [#151972298](https://www.pivotaltracker.com/story/show/151972298) |
-| *UC1* | The Coveralls badge should be automatically added to the README.md file for a repo when Coveralls is set up. | Incomplete | [#151972296](https://www.pivotaltracker.com/story/show/151972296) |
-| *UC1* | Add functionality for CiBot to initially activate Travis CI for a repo. | Incomplete | [#151975140](https://www.pivotaltracker.com/story/show/151975140) |
-| *UC2<br/>UC3* | Set a default contributor (last committer) that CiBot uses for suggested issue assignment. | Incomplete | [#152264301](https://www.pivotaltracker.com/story/show/152264301) |
+| Category | Description | Status | Assignees | Link |
+| --- | --- |  --- | --- | --- |
+| *General* | Team meeting to review task status schedule work session. | Complete | *everyone* | |
+| *General* | Create a screencast for the Service milestone. | Complete | tmdement | [#152622394](https://www.pivotaltracker.com/story/show/152622394)
+| *UC1* | Create Travis CI and Coveralls badging functionality for repo README.md files. | Complete | tmdement | [#152450117](https://www.pivotaltracker.com/story/show/152450117) |
+| *UC1* | Change the `tokenManager.js` module to keep tokens in persistent storage. | Complete | ikoishy | [#152700891](https://www.pivotaltracker.com/story/show/152700891) |
+| *UC1* | Implement functionality to set up GitHub tokens using CiBot. | Complete | sssaha2 | [#152451275](https://www.pivotaltracker.com/story/show/152451275) |
+| *UC1* | Add functionality for CiBot to initially activate Travis CI for a repo. | Complete | ikoishy | [#151975140](https://www.pivotaltracker.com/story/show/151975140) |
+| *UC1* | Restrict adding token function to direct messages only. | Complete | ajmcnama<br/>tmdement | [#152705301](https://www.pivotaltracker.com/story/show/152705301) |
+| *UC1* | Report that a response is not supported and prompt for another. | Complete | sssaha2 | [#152222000](https://www.pivotaltracker.com/story/show/152222000) |
+| *UC2* | Determine Travis CI badge link. | Complete | ikoishy | [#152450080](https://www.pivotaltracker.com/story/show/152450080) |
+| *UC2* | Create a live test repo for Travis CI build failures. | Complete | sgonsal | [#152449929](https://www.pivotaltracker.com/story/show/152449929) |
+| *UC3* | Create a live test repo for Coveralls coverage loss. | Complete | sgonsal | [#142449944](https://www.pivotaltracker.com/story/show/152449944) |
+| *UC3* | Coveralls should automatically run with builds, and CiBot should notify coverage details. | Complete | ajmcnama<br/>sgonsal | [#151975142](https://www.pivotaltracker.com/story/show/151975142) |
+| *UC3* | Set a default value for created issues to be assigned to. | Complete | sgonsal<br/>sssaha2 | [#152264288](https://www.pivotaltracker.com/story/show/152264288) |
+| *UC2<br/>UC3* | Validate input when using CiBot to create issues. | Complete | sssaha2 | [#152221228](https://www.pivotaltracker.com/story/show/152221228) |
+| *UC2<br/>UC3* | Ensure assignees can be assigned issues before attempting to. | Complete | ajmcnama | [#152706456](https://www.pivotaltracker.com/story/show/152706456) |
+| *UC2<br/>UC3* | Set a default contributor (last committer) that CiBot uses for suggested issue assignment. | Complete | ikoishy<br/>sgonsal | [#152264301](https://www.pivotaltracker.com/story/show/152264301) |
+| *UC1<br/>UC2<br/>UC3* | Specify a web address in the .travis.yml file that CiBot is listening to. | Complete | ajmcnama | [#152701474](https://www.pivotaltracker.com/story/show/152701474) |
+| *UC1<br/>UC2<br/>UC3<br/>* | Set up connections between CiBot, Travis CI, Coveralls, and GitHub. | Complete | ajmcnama | [#151828939](https://www.pivotaltracker.com/story/show/151828939) |
+| *UC1* | The Travis CI badge should be automatically added to the README.md file for a repo when Travis CI is set up. | Incomplete | tmdement | [#151972298](https://www.pivotaltracker.com/story/show/151972298) |
+| *UC1* | The Coveralls badge should be automatically added to the README.md file for a repo when Coveralls is set up. | Incomplete | tmdement | [#151972296](https://www.pivotaltracker.com/story/show/151972296) |
 
 ## MILESTONE: DEPLOY
 

@@ -145,4 +145,4 @@ Task tracking for this milestone can be found in the [WORKSHEET](WORKSHEET.md#mi
 
 Please see the video demonstration below, which runs through each of the three use cases, demonstrates use of the `help` feature, and records a successful pass through the [Selenium tests](https://github.ncsu.edu/CiBot/bot/blob/master/Selenium/src/test/java/selenium/tests/WebTest.java).
 
-[![CiBot Communication Demo](https://img.youtube.com/vi/GkUK_OoQXeU/0.jpg)](https://www.youtube.com/watch?v=GkUK_OoQXeU)
+[![CiBot Communication Demo](https://img.youtube.com/vi/36JPuNsIBA8/0.jpg)](https://www.youtube.com/watch?v=36JPuNsIBA8)
