@@ -4,12 +4,12 @@
 
 ## 2. Passing Acceptance Testing
 **Test account**: *CiBotTA*  
-**Test repository**: *travis-test* 
-Acceptance tests:
+**Test repository**: *travis-test*  
+**Acceptance tests**:
 1. [add-token](#1-add-token-to-store-skip-if-you-are-ta)
-2. [init travis and create yaml file](2-initialize-travis-and-create-yaml-file)
-3. [build failure and create issue](3-build-failure-and-create-issue)
-4. [coverage loss and create issue](4-coverage-loss-and-create-issue)
+2. [init travis and create yaml file](#2-initialize-travis-and-create-yaml-file)
+3. [build failure and create issue](#3-build-failure-and-create-issue)
+4. [coverage loss and create issue](#4-coverage-loss-and-create-issue)
 
 ### 1. Add Token to Store (skip if you are TA)
 1. Type ```add-token testuser=token``` as a direct message to the Cibot to add **Github token** for the **testuser**. 
