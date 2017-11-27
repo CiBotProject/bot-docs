@@ -3,21 +3,23 @@
 ## 1. Deployment Scripts
 
 ## 2. Passing Acceptance Testing
+**Test account**: *CiBotTA*  
+**Test repository**: *travis-test* 
 Acceptance tests:
-1. add-token
-2. init travis and create yaml file
-3. build failure and create issue
-4. coverage loss and create issue
+1. [add-token](#1-add-token-to-store-skip-if-you-are-ta)
+2. [init travis and create yaml file](2-initialize-travis-and-create-yaml-file)
+3. [build failure and create issue](3-build-failure-and-create-issue)
+4. [coverage loss and create issue](4-coverage-loss-and-create-issue)
 
-### Add Token to Store (skip if you are TA)
+### 1. Add Token to Store (skip if you are TA)
 1. Type ```add-token testuser=token``` as a direct message to the Cibot to add **Github token** for the **testuser**. 
     - **Note**: for TA we have already setup token.
     - **Note**: for security reasons you need to type the command only with direct messages
     - **Note**: if commands is incorrect the CiBot displays error message.
 
-### Initialize Travis and Create Yaml File
+### 2. Initialize Travis and Create Yaml File
 Precondition: navigate to dedicated channel.
-1. Type ```@cibot init travis owner/repo``` to initialize travis for the repo.
+1. Type ```@cibot init travis {owner}/{repo}``` to initialize travis for the repo. Replace *owner* and *repo* with *test account* and *test repository* respectively. 
     - The CiBot asks the user if he/she wants to create YAML file for the repo.
 2. Type ```@cibot yes``` to start conversation to create yaml file.
     - The CiBot will reply with the list of supported technologies.
@@ -27,8 +29,10 @@ Precondition: navigate to dedicated channel.
     - **Note**: if the user types unsupported technology, the CiBot reply with error message
     - **Node**: if the user types supported technology, but incorrect for the project then the bot will create the yaml file. But remember that the project will always fail.
 
-### Build Failure and Create Issue
-When build fails the bot will notify the channel, and asks if someone want to create an issue.
+### 3. Build Failure and Create Issue
+When build fails the bot will notify the dedicated channel, and asks if someone want to create an issue.
+0. Change `isBuildSuccess` to `false` inside **build.config.json** file. This will trigger build failure in travis.
+    - The Cibot will notify the dedicated channel after build fails. The user can create an issue.
 1. Type ```@cibot create issue``` inside channel where build failure notified.
     - SUCCESS: The bot will ask the user if he/she wants to change the issue title.
         1. Respond `no` to skip changing the default title of the issue.
@@ -40,10 +44,10 @@ When build fails the bot will notify the channel, and asks if someone want to cr
     - SUCCESS: The bot will create the issue with specified title and assigned to specified users.
     - FAIL: The bot replies with error messages.
 
-### Coverage Loss and Create Issue
+### 4. Coverage Loss and Create Issue
 When new commits degrades the coverage of the code, the coverage loss will be triggered, and the bot notifies repository channel that coverage has been loss and asks if someone wants to create an issue.
 1. Comment out all tests in file **test.js** to trigger the coverage loss.
-2. After a build completes the coverage loss will be triggered and issue creation stars. Goto issue creation steps.
+2. After a build completes the coverage loss will be triggered and issue creation conversation starts. Goto 3.1 to create an issue.
 
 
 ## 3. Exploratory Testing and Code Inspection
