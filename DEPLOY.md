@@ -50,13 +50,10 @@ When new commits degrades the coverage of the code, the coverage loss will be tr
 1. Comment out all tests in file **test.js** to trigger the coverage loss.
 2. After a build completes the coverage loss will be triggered and issue creation conversation starts. Goto 3.1 to create an issue.
 
-
-## 3. Exploratory Testing and Code Inspection
-
-## 4. Task Tracking
+## 3. Task Tracking
 
 Task tracking for this milestone can be found in the [WORKSHEET](WORKSHEET.md#milestone-deploy).
 
-## 5. Screencast
+## 4. Screencast
 
 Please see the video demonstration below, which...
