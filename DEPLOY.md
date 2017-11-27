@@ -5,7 +5,7 @@
 ## 2. Passing Acceptance Testing
 **Test account**: *CiBotTA*  
 **Test repository**: *travis-test*  
-**CiBot App**: *heroku-bot*
+**CiBot App**: *heroku-bot*  
 **Acceptance tests**:
 1. [add-token](#1-add-token-to-store-skip-if-you-are-ta)
 2. [init travis and create yaml file](#2-initialize-travis-and-create-yaml-file)
