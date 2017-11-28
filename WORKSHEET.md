@@ -144,6 +144,9 @@ The CiBot team practiced agile development by planning slack into the developmen
 | *Screencast* | Create video for Demo day | Complete | tmdement | [#153073233](https://www.pivotaltracker.com/story/show/153073233) |
 | *Screencast* | Create video for DEPLOY milestone | In Progress | tmdement | [#153069726](https://www.pivotaltracker.com/story/show/153069726) |
 | *General* | Create logo for CiBot | Complete | tmdement | [#151828927](https://www.pivotaltracker.com/story/show/151828927) |
+| *General* | Move channel/repo maps to persistant storage | In Progress | sgonsal | [#152835143](https://www.pivotaltracker.com/story/show/152835143) |
+| *General* | Convert interactions to use Slack Buttons | In Progress | sssaha2 | [#152449891](https://www.pivotaltracker.com/story/show/152449891) |
+| *Deploy* | Use configuration management tools to deploy app to remote environment | In Progress | ikoishy<br/>sssaha2 | [#151828843](https://www.pivotaltracker.com/story/show/151828843) |
 
 ## MILESTONE: REPORT
 
