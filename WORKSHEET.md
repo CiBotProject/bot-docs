@@ -147,7 +147,8 @@ The CiBot team practiced agile development by planning slack into the developmen
 | *General* | Move channel/repo maps to persistant storage | In Progress | sgonsal | [#152835143](https://www.pivotaltracker.com/story/show/152835143) |
 | *General* | Convert interactions to use Slack Buttons | In Progress | sssaha2 | [#152449891](https://www.pivotaltracker.com/story/show/152449891) |
 | *Deploy* | Use configuration management tools to deploy app to remote environment | In Progress | ikoishy<br/>sssaha2 | [#151828843](https://www.pivotaltracker.com/story/show/151828843) |
-| *Deploy* | Issue creation was not reporting the correct id | Complete | ajmcnama | [#153224241](https://www.pivotaltracker.com/story/show/153224241) |
+| *General* | Issue creation was not reporting the correct id | Complete | ajmcnama | [#153224241](https://www.pivotaltracker.com/story/show/153224241) |
+| *General* | Default issue assignees are not being properly filled | Complete | ikoishy | [#152835722](https://www.pivotaltracker.com/story/show/152835722) |
 
 ## MILESTONE: REPORT
 
