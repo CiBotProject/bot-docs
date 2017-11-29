@@ -14,10 +14,13 @@ The following steps can be followed to deploy CiBot to a remote server
       ```
       [nodes]
       {{remote server ip address}} ansible_ssh_user={{username}} ansible_private_key_file={{path to private key for remote server}}```
-* Run ansible
-  * After the inventory/key file have been set up properly, you can run this playbook with the command `ansible-playbook setup.yml -i {{path to inventory file}}`
-  
-The `setup.yml` file can be found in the [bot/scripts](https://github.ncsu.edu/CiBot/bot/tree/master/scripts) directory.
+      
+* Setup the remote server, installing necessary packages
+  * After the inventory/key file have been set up properly, run the setup playbook: `ansible-playbook setup.yml -i {{path to inventory file}}`
+  * The `setup.yml` playbook can be found in the [bot/scripts](https://github.ncsu.edu/CiBot/bot/tree/master/scripts) directory.
+* Start the app
+  * After the server has been setup, start the app with ansible: `ansible-playbook startbot.yml -i {{path to inventory file}}`
+  * The `startbot.yml` playbook can be found in the [bot/scripts](https://github.ncsu.edu/CiBot/bot/tree/master/scripts) directory. Before running it, however, the Slack API token needs to be inserted to replace the placeholder. 
 
 ## 2. Passing Acceptance Testing
 **Test account**: *CiBotTA*  
