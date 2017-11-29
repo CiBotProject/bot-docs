@@ -5,7 +5,7 @@
 ## 2. Passing Acceptance Testing
 **Test account**: *CiBotTA*  
 **Test repository**: *travis-test*  
-**CiBot App**: *heroku-bot*  
+**CiBot App**: *cibot*  
 **Acceptance tests**:
 1. [add-token](#1-add-token-to-store-skip-if-you-are-ta)
 2. [init travis and create yaml file](#2-initialize-travis-and-create-yaml-file)
@@ -20,9 +20,9 @@
 
 ### 2. Initialize Travis and Create Yaml File
 Precondition: navigate to dedicated channel.
-1. Type ```@heroku-bot init travis {owner}/{repo}``` to initialize travis for the repo. Replace *owner* and *repo* with *test account* and *test repository* respectively. 
+1. Type ```@cibot init travis {owner}/{repo}``` to initialize travis for the repo. Replace *owner* and *repo* with *test account* and *test repository* respectively. 
     - The CiBot asks the user if he/she wants to create YAML file for the repo.
-2. Type ```@heroku-bot yes``` to start conversation to create yaml file.
+2. Type ```@cibot yes``` to start conversation to create yaml file.
     - The CiBot will reply with the list of supported technologies.
 3. Type ```node.js``` to create yaml file for Node.js project
     - SUCCESS: the bot will reply with success message and push the `.travis.yaml` file into root folder of repository.
@@ -34,16 +34,21 @@ Precondition: navigate to dedicated channel.
 When build fails the bot will notify the dedicated channel, and asks if someone want to create an issue.
 0. Change `isBuildSuccess` to `false` inside **build.config.json** file. This will trigger build failure in travis.
     - The Cibot will notify the dedicated channel after build fails. The user can create an issue.
-1. Type ```@heroku-bot create issue``` inside channel where build failure notified.
-    - SUCCESS: The bot will ask the user if he/she wants to change the issue title.
-        1. Respond `no` to skip changing the default title of the issue.
-            - The Cibot will ask for common separated users to assign to the issue.
-2. Type ```@heroku-bot yes``` to change the title of the issue.
-    - SUCCESS: The bot will ask for the new title of the issue.
-        1. Change the title of the issue to any string you want.
-3. Type ```@heroku-bot user1, user2``` to assign *user1* and *user2* to the issue.
-    - SUCCESS: The bot will create the issue with specified title and assigned to specified users.
-    - FAIL: The bot replies with error messages.
+1. Type ```@cibot create issue``` inside channel where build failure notified.
+    - SUCCESS: The bot will ask the user if he/she wants to change the issue title. By default the bot will set the title of the issue to the commit id which led to the build failure.
+        1. Type `no` to skip changing the default title of the issue.
+            - The Cibot will ask for comma separated users to assign to the issue.
+            - Type `CiBotTA` to assign *CiBotTA* to the issue.
+                - SUCCESS: The bot will create the issue with specified title and assigned to specified users.
+                - FAIL: The bot replies with error messages.
+                - **Note**: If the user types incorrect github logins the issue will be created without assigning anybody.
+        2. Type `yes` to change the title of the issue.
+            - SUCCESS: The bot will ask for the new title of the issue.
+            - Change the title of the issue to any string you want.
+            - Type `CiBotTA` to assign *CiBotTA* to the issue.
+                - SUCCESS: The bot will create the issue with specified title and assigned to specified users.
+                - FAIL: The bot replies with error messages.
+                - **Note**: If the user types incorrect github logins the issue will be created without assigning anybody.
 
 ### 4. Coverage Loss and Create Issue
 When new commits degrades the coverage of the code, the coverage loss will be triggered, and the bot notifies repository channel that coverage has been loss and asks if someone wants to create an issue.
