@@ -2,6 +2,23 @@
 
 ## 1. Deployment Scripts
 
+The following steps can be followed to deploy CiBot to a remote server
+
+* Ensure that ansible is installed
+  * On ubuntu, this can be accomplished through `sudo apt-get update; sudo apt-get install ansible`
+* Create the keyfile for the remote server you want to install on
+  * This key file contains the private key to connect to the server
+  * This file needs to have restricted access. Ansible will fail if it is group/world accessible, you can solve this using `chmod 600 keyfile`
+* Specify the remote server you want to deploy to with an inventory file
+  * This file has the format:
+      ```
+      [nodes]
+      {{remote server ip address}} ansible_ssh_user={{username}} ansible_private_key_file={{path to private key for remote server}}```
+* Run ansible
+  * After the inventory/key file have been set up properly, you can run this playbook with the command `ansible-playbook setup.yml -i {{path to inventory file}}`
+  
+The `setup.yml` file can be found in the [bot/scripts](https://github.ncsu.edu/CiBot/bot/tree/master/scripts) directory.
+
 ## 2. Passing Acceptance Testing
 **Test account**: *CiBotTA*  
 **Test repository**: *travis-test*  
