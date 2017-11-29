@@ -81,4 +81,7 @@ Task tracking for this milestone can be found in the [WORKSHEET](WORKSHEET.md#mi
 
 ## 4. Screencast
 
-Please see the video demonstration below, which...
+Please see the video demonstration below, which describes our deployment process, summarizes our Ansible playbooks, and reviews our three use cases.
+
+[![CiBot Deployment Demo](https://img.youtube.com/vi/X3ZxghDAxEk/0.jpg)](https://www.youtube.com/watch?v=X3ZxghDAxEk&list=PLD1SyWmTvl7MCFONNkLbTEOFX16C6J8CO&index=4)
+
