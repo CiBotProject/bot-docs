@@ -44,6 +44,7 @@ Preconditions:
  * Navigate to dedicated channel
  * Ensure that you have activated Travis-CI for your account by logging in [here](https://travis-ci.org/)
  * Activate Coveralls for the repos by logging in [here](https://coveralls.io/repos/new)
+ * **Note**: Due to limitations of the Coveralls API, you will need to manually toggle the Coveralls button next to a repo in order to use CiBot's coverage notification system for that repo (this has been done for CiBotTA/travis-test, but if you are testing other repos, this will need to be done first).
  
 1. Type ```@cibot init travis {owner}/{repo}``` to initialize travis for the repo. Replace *owner* and *repo* with *test account* and *test repository* respectively. 
     - The CiBot asks the user if he/she wants to create YAML file for the repo.
