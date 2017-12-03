@@ -2,7 +2,9 @@
 
 ## 1. Project Presentation
 
-Please see the video demonstration below, which...
+Please see the video demonstration below, which illustrates the problem our bot addresses and its three primary use cases.
+
+[![CiBot Report Demo](https://img.youtube.com/vi/n7pRawMraAQ/0.jpg)](https://www.youtube.com/watch?v=n7pRawMraAQ)
 
 ## 2. Report
 
