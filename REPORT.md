@@ -12,6 +12,15 @@ Please see the video demonstration below, which...
 
 ### 2.3 Reflection on the Development Process and Project
 
+The Agile methodology of having user stories helped us organize the features we were building into the bot, allowing us to divide them into manageable chunks of work that could be assigned to each of us.   
+Also, the milestones were well organized that allowed us focus on the bot interactions first and then work on implementing the back-end (service) code.  
+After the bot was written and developed locally, it was natural to make the progression to deploy it on a VM to verify its working in action.  
+We made use of an Azure VM to deploy the bot and Ansible scripts for configuration management.
+Getting the design right at the start was crucial, however we did iterate and make changes to our original design. 
+With regard to productivity, the task tracking software Pivotal Tracker was used and it enabled us to evaluate the work that was being done, and what needed to be completed.  
+The project encompassed a lot of important software engineering concepts such as software design, user interaction, testing, configuration management, and the agile development process.  
+The deadlines were organized into approximately 3 week sprints, allowing time for weekly meetings and standups.    
+
 ### 2.4 Limitations and Future Work
 #### Limitations 
 
