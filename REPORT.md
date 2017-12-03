@@ -17,8 +17,8 @@ CiBot gives ability to manage travis continuous integration for the repository i
 ![init travis](design-assets/report/init_travis.png)
 2. A user can deactivate Travis-CI for the repository in a channel. Command `@cibot reset travis`. If the user wants, Cibot can remove a default `.travis.yml` file from repository.
 ![reset travis](design-assets/report/reset_travis.png)
-3. Cibot notifies a channel if build fails. A user can create an issue. Please refer to [Github Management](#github-management).
-![build failure](design-assets/report/build_failure.png)
+3. Cibot notifies a channel if build fails. A user can create an issue. Please refer to [Github Management](#223-github-management).
+![build failure](design-assets/report/build-failure.png)
 
 #### 2.2.2 Coveralls Management
 CiBot can manage Coveralls if repository is ready.  
@@ -26,7 +26,7 @@ Management process includes:
 1. The user can set coverage threshold. Command `@cibot set threshold to {number}`  
 ![coverage threshold](design-assets/report/set_threshold.png)
 2. Cibot notifies a channel with up-to date coverage. If coverage is below A user can create an issue. Please refer to [Github Management](#223-github-management).  
-![coverage notification](design-assets/report/converage_notification.png)
+![coverage notification](design-assets/report/coverage-notification.png)
 
 #### 2.2.3 Github Management
 Cibot can create manage Github.  
