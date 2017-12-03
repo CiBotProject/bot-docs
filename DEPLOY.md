@@ -23,6 +23,7 @@ The following steps can be followed to deploy CiBot to a remote server
   * The `startbot.yml` playbook can be found in the [bot/scripts](https://github.ncsu.edu/CiBot/bot/tree/master/scripts) directory. Before running it, however, the Slack API token needs to be inserted to replace the placeholder. 
 
 ## 2. Passing Acceptance Testing
+*Note:* ***CiBot*** only supports public GitHub repositories.  
 **Test account**: *CiBotTA*  
 **Test repository**: *travis-test*  
 **CiBot App**: *cibot*  
@@ -39,7 +40,11 @@ The following steps can be followed to deploy CiBot to a remote server
     - **Note**: if commands is incorrect the CiBot displays error message.
 
 ### 2. Initialize Travis and Create Yaml File
-Precondition: navigate to dedicated channel.
+Preconditions: 
+ * Navigate to dedicated channel
+ * Ensure that you have activated Travis-CI for your account by logging in [here](https://travis-ci.org/)
+ * Activate Coveralls for the repos by logging in [here](https://coveralls.io/repos/new)
+ 
 1. Type ```@cibot init travis {owner}/{repo}``` to initialize travis for the repo. Replace *owner* and *repo* with *test account* and *test repository* respectively. 
     - The CiBot asks the user if he/she wants to create YAML file for the repo.
 2. Type ```@cibot yes``` to start conversation to create yaml file.
