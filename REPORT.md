@@ -11,6 +11,34 @@ Please see the video demonstration below, which illustrates the problem our bot 
 ### 2.1 Problem Solved by Bot
 
 ### 2.2 Primary Features and Screenshots
+#### 2.2.1 Travis-CI Management
+CiBot gives ability to manage travis continuous integration for the repository in a dedicated slack channel. Management process includes:  
+1. A user can activate Travis-CI for the repository in a channel. Command `@cibot init travis {owner/repo}`. If the user wants, Cibot will create a default `.travis.yml` file and push it to the repository.
+![init travis](design-assets/report/init travis.png)
+2. A user can deactivate Travis-CI for the repository in a channel. Command `@cibot reset travis`. If the user wants, Cibot can remove a default `.travis.yml` file from repository.
+![reset travis](design-assets/report/reset travis.png)
+3. Cibot notifies a channel if build fails. A user can create an issue. Please refer to [Github Management](#github-management).
+![build failure](design-assets/report/build failure.png)
+
+#### 2.2.2 Coveralls Management
+CiBot can manage Coveralls if repository is ready.  
+Management process includes:  
+1. The user can set coverage threshold. Command `@cibot set threshold to {number}`
+![coverage threshold](design-assets/report/set threshold.png)
+2. Cibot notifies a channel with up-to date coverage. If coverage is below A user can create an issue. Please refer to [Github Management](#github-management).
+![coverage notification](design-assets/report/converage notification.png)
+
+#### 2.2.3 Github Management
+Cibot can create manage Github.  
+Management process includes:
+1. A user can create an issue and assign it to a repository collaborators. Command: `@cibot create issue`
+![create issue](design-assets/report/create issue.png)
+#### 2.2.4 Secondary Features
+Cibot provides additional features for users' convenience.
+1. A user can store Github token. The following only available as a direct message Command: `@cibot add-token`
+![add token](design-assets/report/add token.png)
+2. A user can request man page of Cibot. Command: `@cibot help` (`@cibot help init` `@cibot help reset` `@cibot help configure yaml` `@cibot help issue` `@cibot help coveralls` `@cibot help token`)
+![help](design-assets/report/help.png)
 
 ### 2.3 Reflection on the Development Process and Project
 
