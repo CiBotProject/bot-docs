@@ -23,21 +23,21 @@ CiBot gives ability to manage travis continuous integration for the repository i
 #### 2.2.2 Coveralls Management
 CiBot can manage Coveralls if repository is ready.  
 Management process includes:  
-1. The user can set coverage threshold. Command `@cibot set threshold to {number}`
-![coverage threshold](design-assets/report/set threshold.png)
-2. Cibot notifies a channel with up-to date coverage. If coverage is below A user can create an issue. Please refer to [Github Management](#github-management).
-![coverage notification](design-assets/report/converage notification.png)
+1. The user can set coverage threshold. Command `@cibot set threshold to {number}`  
+![coverage threshold](design-assets/report/set_threshold.png)
+2. Cibot notifies a channel with up-to date coverage. If coverage is below A user can create an issue. Please refer to [Github Management](#github-management).  
+![coverage notification](design-assets/report/converage_notification.png)
 
 #### 2.2.3 Github Management
 Cibot can create manage Github.  
 Management process includes:
-1. A user can create an issue and assign it to a repository collaborators. Command: `@cibot create issue`
-![create issue](design-assets/report/create issue.png)
+1. A user can create an issue and assign it to a repository collaborators. Command: `@cibot create issue`  
+![create issue](design-assets/report/create_issue.png)
 #### 2.2.4 Secondary Features
 Cibot provides additional features for users' convenience.
-1. A user can store Github token. The following only available as a direct message Command: `@cibot add-token`
-![add token](design-assets/report/add token.png)
-2. A user can request man page of Cibot. Command: `@cibot help` (`@cibot help init` `@cibot help reset` `@cibot help configure yaml` `@cibot help issue` `@cibot help coveralls` `@cibot help token`)
+1. A user can store Github token. The following only available as a direct message Command: `@cibot add-token`  
+![add token](design-assets/report/add_token.png)
+2. A user can request man page of Cibot. Command: `@cibot help` (`@cibot help init` `@cibot help reset` `@cibot help configure yaml` `@cibot help issue` `@cibot help coveralls` `@cibot help token`)  
 ![help](design-assets/report/help.png)
 
 ### 2.3 Reflection on the Development Process and Project
