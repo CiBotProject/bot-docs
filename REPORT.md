@@ -83,5 +83,3 @@ The following are some points which we think would be future enhancements to the
 1. We would like to extend the bot’s functionality to initialize multiple repositories in one channel
 2. We would also like to add the ability to communicate with the bot to set up the testing frameworks (Mocha and Istanbul) through the slack chat interface itself, instead of having it as a prerequisite
 3. Currently, the bot supports only NodeJS projects and possible future enhancement would be to extend the bot to support Java, Ruby and/or Python as well
-
-## 3. Peer Evaluation
