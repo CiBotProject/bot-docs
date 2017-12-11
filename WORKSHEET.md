@@ -129,7 +129,26 @@ The CiBot team practiced agile development by planning slack into the developmen
 
 ### Week 7: *Wed 15 Nov - Tue 21 Nov*
 
+| Category | Description | Status | Assignees | Link |
+| --- | --- | --- |  --- | --- |
+| *UC2<br/>UC3* | Issues not always being generated, causing error | Complete | ajmcnama | [#152835551](https://www.pivotaltracker.com/story/show/152835551) |
+| *UC2<br/>UC3* | Multiple URLs are being put in .yaml files | Complete | ajmcnama | [#152832276](https://www.pivotaltracker.com/story/show/152832276) |
+| *General* | Team meeting to identify and delegate tasks.  | Complete | *everyone* |  |
+
 ### Week 8: *Wed 22 Nov - Tue 28 Nov*
+
+| Category | Description | Status | Assignees | Link |
+| --- | --- | --- |  --- | --- |
+| *Testing* | Create accounts for Acceptance Testing | Complete | ajmcnama | [#153069708](https://www.pivotaltracker.com/story/show/153069708) |
+| *Testing* | Create directions for Acceptance Testing | Complete | ikoishy | [#153069683](https://www.pivotaltracker.com/story/show/153069683) |
+| *Screencast* | Create video for Demo day | Complete | tmdement | [#153073233](https://www.pivotaltracker.com/story/show/153073233) |
+| *Screencast* | Create video for DEPLOY milestone | In Progress | tmdement | [#153069726](https://www.pivotaltracker.com/story/show/153069726) |
+| *General* | Create logo for CiBot | Complete | tmdement | [#151828927](https://www.pivotaltracker.com/story/show/151828927) |
+| *General* | Move channel/repo maps to persistant storage | In Progress | sgonsal | [#152835143](https://www.pivotaltracker.com/story/show/152835143) |
+| *General* | Convert interactions to use Slack Buttons | In Progress | sssaha2 | [#152449891](https://www.pivotaltracker.com/story/show/152449891) |
+| *Deploy* | Use configuration management tools to deploy app to remote environment | In Progress | ikoishy<br/>sssaha2 | [#151828843](https://www.pivotaltracker.com/story/show/151828843) |
+| *General* | Issue creation was not reporting the correct id | Complete | ajmcnama | [#153224241](https://www.pivotaltracker.com/story/show/153224241) |
+| *General* | Default issue assignees are not being properly filled | Complete | ikoishy | [#152835722](https://www.pivotaltracker.com/story/show/152835722) |
 
 ## MILESTONE: REPORT
 
